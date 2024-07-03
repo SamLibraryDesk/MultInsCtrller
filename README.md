@@ -17,13 +17,13 @@ To add more hotkeys, [read](https://www.autohotkey.com/docs/v1/Hotkeys.htm#combo
 
 ## Hotkeys:
 
-- F1 + F5 (127.0.0.1).
+- `F1` + `F5` (127.0.0.1).
 
-- F1 + F6 (192.168.).
+- `F1` + `F6` (192.168.).
 
-- F1 + F7 (10.0.0.).
+- `F1` + `F7` (10.0.0.).
 
-- F1 + [General Keys, Arrows, 0-9] the letters are not included.
+- `F1` + [`General Keys`, `Arrows`, `0`-`9`] the letters are not included.
 
 ## Implement MultInsCtrller within Nucleus Co-op:
 
