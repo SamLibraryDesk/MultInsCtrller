@@ -5,7 +5,7 @@ Warning [read more](https://www.autohotkey.com/docs/v1/Tutorial.htm#s31)
 
 The main purpose of this tool is to type the direct IP in the instances to join a game at once.
 
-To add more hotkeys, [read](https://www.autohotkey.com/docs/v1/Hotkeys.htm#combo)
+To add more hotkeys, [read](https://www.autohotkey.com/docs/v1/KeyList.htm)
 
 ## How to use?
 
