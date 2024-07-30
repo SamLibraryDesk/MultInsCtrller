@@ -11,7 +11,7 @@ To add more hotkeys, [read](https://www.autohotkey.com/docs/v1/Hotkeys.htm#combo
 
 1. Open "MultInsCtrller.ahk" with text editor or whatever.
 
-2. Replace all "WindowName" with the game window name (Ctrl+H) then save the file.
+2. Replace "Window-Name" with the game window name then save the file.
 
 3. Run the script eather with your installed AHK app or adding [BAT file](README.md#implement-multinsctrller-within-nucleus-co-op).
 
