@@ -1,12 +1,14 @@
-Winwait, WindowName
+WinName = Window.Name ;Replace Window.Name with the name of the window.
 
-WinWaitClose, WindowName
+Winwait, %WinName%
+
+WinWaitClose, %WinName%
 ExitApp
 
 SetTitleMatchMode, 2
 
 F1 & F5::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -17,7 +19,7 @@ ControlSend,, 127.0.0.1, ahk_id %this_ID%
 Return
 
 F1 & F6::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -28,7 +30,7 @@ ControlSend,, 192.168., ahk_id %this_ID%
 Return
 
 F1 & F7::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -39,7 +41,7 @@ ControlSend,, 10.0.0., ahk_id %this_ID%
 Return
 
 F1 & Backspace::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -50,7 +52,7 @@ ControlSend,, {Backspace}, ahk_id %this_ID%
 Return
 
 F1 & Enter::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -61,7 +63,7 @@ ControlSend,, {Enter}, ahk_id %this_ID%
 Return
 
 F1 & Esc::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -72,7 +74,7 @@ ControlSend,, {Esc}, ahk_id %this_ID%
 Return
 
 F1 & Space::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -83,7 +85,7 @@ ControlSend,, {Space}, ahk_id %this_ID%
 Return
 
 F1 & Tab::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -94,7 +96,7 @@ ControlSend,, {Tab}, ahk_id %this_ID%
 Return
 
 F1 & Right::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -105,7 +107,7 @@ ControlSend,, {Right}, ahk_id %this_ID%
 Return
 
 F1 & Left::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -116,7 +118,7 @@ ControlSend,, {Left}, ahk_id %this_ID%
 Return
 
 F1 & Up::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -127,7 +129,7 @@ ControlSend,, {Up}, ahk_id %this_ID%
 Return
 
 F1 & Down::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -138,7 +140,7 @@ ControlSend,, {Down}, ahk_id %this_ID%
 Return
 
 F1 & 1::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -149,7 +151,7 @@ ControlSend,, 1, ahk_id %this_ID%
 Return
 
 F1 & 2::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -160,7 +162,7 @@ ControlSend,, 2, ahk_id %this_ID%
 Return
 
 F1 & 3::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -171,7 +173,7 @@ ControlSend,, 3, ahk_id %this_ID%
 Return
 
 F1 & 4::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -182,7 +184,7 @@ ControlSend,, 4, ahk_id %this_ID%
 Return
 
 F1 & 5::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -193,7 +195,7 @@ ControlSend,, 5, ahk_id %this_ID%
 Return
 
 F1 & 6::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -204,7 +206,7 @@ ControlSend,, 6, ahk_id %this_ID%
 Return
 
 F1 & 7::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -215,7 +217,7 @@ ControlSend,, 7, ahk_id %this_ID%
 Return
 
 F1 & 8::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -226,7 +228,7 @@ ControlSend,, 8, ahk_id %this_ID%
 Return
 
 F1 & 9::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -237,7 +239,7 @@ ControlSend,, 9, ahk_id %this_ID%
 Return
 
 F1 & 0::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -248,7 +250,7 @@ ControlSend,, 0, ahk_id %this_ID%
 Return
 
 F1 & -::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -259,7 +261,7 @@ ControlSend,, -, ahk_id %this_ID%
 Return
 
 F1 & =::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -270,7 +272,7 @@ ControlSend,, =, ahk_id %this_ID%
 Return
 
 F1 & .::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -281,7 +283,7 @@ ControlSend,, ., ahk_id %this_ID%
 Return
 
 F1 & Numpad0::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -292,7 +294,7 @@ ControlSend,, {Numpad0}, ahk_id %this_ID%
 Return
 
 F1 & Numpad1::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -303,7 +305,7 @@ ControlSend,, {Numpad1}, ahk_id %this_ID%
 Return
 
 F1 & Numpad2::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -314,7 +316,7 @@ ControlSend,, {Numpad2}, ahk_id %this_ID%
 Return
 
 F1 & Numpad3::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -325,7 +327,7 @@ ControlSend,, {Numpad3}, ahk_id %this_ID%
 Return
 
 F1 & Numpad4::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -336,7 +338,7 @@ ControlSend,, {Numpad4}, ahk_id %this_ID%
 Return
 
 F1 & Numpad5::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -347,7 +349,7 @@ ControlSend,, {Numpad5}, ahk_id %this_ID%
 Return
 
 F1 & Numpad6::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -358,7 +360,7 @@ ControlSend,, {Numpad6}, ahk_id %this_ID%
 Return
 
 F1 & Numpad7::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -369,7 +371,7 @@ ControlSend,, {Numpad7}, ahk_id %this_ID%
 Return
 
 F1 & Numpad8::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -380,7 +382,7 @@ ControlSend,, {Numpad8}, ahk_id %this_ID%
 Return
 
 F1 & Numpad9::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -391,7 +393,7 @@ ControlSend,, {Numpad9}, ahk_id %this_ID%
 Return
 
 F1 & NumpadDot::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -402,7 +404,7 @@ ControlSend,, {NumpadDot}, ahk_id %this_ID%
 Return
 
 F1 & NumpadEnter::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -413,7 +415,7 @@ ControlSend,, {NumpadEnter}, ahk_id %this_ID%
 Return
 
 F1 & NumpadAdd::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -424,7 +426,7 @@ ControlSend,, {NumpadAdd}, ahk_id %this_ID%
 Return
 
 F1 & NumpadSub::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -435,7 +437,7 @@ ControlSend,, {NumpadSub}, ahk_id %this_ID%
 Return
 
 F1 & NumpadMult::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -446,7 +448,7 @@ ControlSend,, {NumpadMult}, ahk_id %this_ID%
 Return
 
 F1 & NumpadDiv::
-WinGet, id, list, WindowName
+WinGet, id, list, %WinName%
 KeyWait, F1, D
 loop, %id%
 {
@@ -456,8 +458,4 @@ ControlSend,, {NumpadDiv}, ahk_id %this_ID%
 }
 Return
 
-
-
 #singleinstance, force
-
-
