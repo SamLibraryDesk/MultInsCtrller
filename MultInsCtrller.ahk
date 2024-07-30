@@ -1,4 +1,4 @@
-WinName = Window.Name ;Replace Window.Name with the name of the window.
+WinName = Window-Name ;Replace Window-Name with the name of the window.
 
 Winwait, %WinName%
 
